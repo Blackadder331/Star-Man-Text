@@ -3,6 +3,11 @@
     src: url(./fonts/Casa-Regular.woff);
 }
 
+@font-face {
+    font-family: "Nagoda";
+    src: url(./fonts/Nagoda.otf);
+}
+
 :root {
     --purple: rgb(52, 48, 37);
     --violet: rgb(225, 217, 130);
@@ -10,8 +15,15 @@
 }
 
 * {
-    font-family: "Casa-Regular" !important;
+    font-family: "Casa-Regular" ;
     letter-spacing: 3px;
+}
+
+h1 {
+    font-family: "Nagoda" !important;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
 }
 
 span {
@@ -108,4 +120,12 @@ h1 > .magic > .magic-text {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
+}
+
+h1 {
+    font-family: "Nagoda" !important;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding-bottom: 1rem;
 }
